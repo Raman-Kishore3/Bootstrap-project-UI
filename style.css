@@ -1,0 +1,54 @@
+.c-item {
+  height: 400px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+body {
+  background-color: #9a9a9a;
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.card-group > .card1,
+.card2,
+.card3 {
+  border: black 2px solid;
+  background-color: #9a9a9a;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 18rem;
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .card-group {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 5px;
+}
+
+.footer > {
+  text-align: end;
+}
